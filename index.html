@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JanGyan - India's Citizen Awareness & E-Learning Platform. Master Cyber Safety, Government Services, Road Rules, Emergency Preparedness, Financial Literacy, and Environment." />
+  <title>JanGyan | Citizen Awareness & E-Learning Platform</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for clean civic UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <span><i class="fa-solid fa-flag-checkered"></i> <strong>JanGyan Citizen Portal</strong> — Empowering Indian Citizens with Essential Civic Knowledge</span>
+      <div class="top-bar-links">
+        <a href="#helplines"><i class="fa-solid fa-phone-volume"></i> National Helplines: <strong>112</strong> | <strong>1930</strong></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home">
+      <img src="assets/logo.png" alt="JanGyan logo" onerror="this.src='JanGyan Logo.png'" />
+      <div>
+        <strong>JanGyan</strong>
+        <span>Awareness · Action · Impact</span>
+      </div>
+    </a>
+    
+    <nav class="nav-menu" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#categories">6 Domains</a>
+      <a href="#quiz">Practice Quiz</a>
+      <a href="#helplines">Helplines</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <a class="btn btn-sm btn-primary" href="#quiz"><i class="fa-solid fa-pen-to-square"></i> Take 20-MCQ Quiz</a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-copy">
+          <div class="badge-pill">
+            <span class="badge-dot"></span> Official Citizen Awareness Initiative
+          </div>
+          <h1>Awareness. Action. <span>Impact.</span></h1>
+          <p class="hero-text">
+            JanGyan empowers every Indian citizen with vital everyday knowledge — from protecting yourself against digital frauds and knowing your constitutional rights, to road safety protocols, emergency life-saving skills, smart finance, and civic responsibility.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#quiz"><i class="fa-solid fa-play"></i> Start 20-MCQ Assessment</a>
+            <a class="btn btn-secondary" href="#categories"><i class="fa-solid fa-grid-2"></i> Explore 6 Domains</a>
+            <a class="btn btn-outline" href="#helplines"><i class="fa-solid fa-phone"></i> Emergency Directory</a>
+          </div>
+          
+          <!-- Key Metrics -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <strong>6</strong>
+              <span>Core Domains</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <strong>60</strong>
+              <span>Curated Modules</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <strong>150+</strong>
+              <span>Verified MCQs</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <strong>100%</strong>
+              <span>Free & Open Access</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="hero-card-glow"></div>
+          <div class="hero-logo-box">
+            <img src="assets/logo.png" alt="JanGyan National Civic Portal" class="hero-logo-img" onerror="this.src='JanGyan Logo.png'" />
+            <div class="floating-badge badge-top">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div>
+                <strong>Cyber Safe</strong>
+                <span>Dial 1930 for Fraud</span>
+              </div>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <strong>Verified Certificate</strong>
+                <span>Earn on 20/20 Score</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">ABOUT JANGYAN PLATFORM</p>
+          <h2>Bridging the Citizen Awareness Gap</h2>
+          <p class="subheading">Complex government gazettes and safety rules made simple, actionable, and testable for everyone.</p>
+        </div>
+        
+        <div class="about-grid">
+          <div class="feature-card">
+            <div class="feature-icon icon-danger">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h3>The Problem</h3>
+            <p>Every year, millions of citizens suffer financial fraud, road hazards, or miss welfare entitlements simply due to lack of timely, accessible awareness and legal jargon.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon icon-primary">
+              <i class="fa-solid fa-book-open-reader"></i>
+            </div>
+            <h3>Our Solution</h3>
+            <p>JanGyan organizes critical civic literacy into 6 essential domains with 10 modules each, backed by official government guidelines (MHA, MoRTH, MeitY, MoHFW).</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon icon-success">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3>Assessment & Proof</h3>
+            <p>Interactive 20-question randomized quizzes test real-world readiness with instant explanations, scoring metrics, and downloadable citizen awareness certificates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 Categories Section -->
+    <section id="categories" class="section bg-alt">
+      <div class="section-container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">CURATED LEARNING DOMAINS</p>
+          <h2>Explore the 6 Pillars of JanGyan</h2>
+          <p class="subheading">Master essential life skills with dedicated handbooks and comprehensive question banks.</p>
+        </div>
+
+        <div id="categoryGrid" class="category-grid">
+          <!-- Populated by JavaScript with real domain cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Quiz Section -->
+    <section id="quiz" class="section">
+      <div class="section-container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">PRACTICE & EVALUATION ENGINE</p>
+          <h2>Citizen Awareness Assessment</h2>
+          <p class="subheading">Select your category, set your questions, and test your civic knowledge with instant explanations.</p>
+        </div>
+
+        <div class="quiz-wrapper">
+          <!-- Quiz Setup Bar -->
+          <div class="quiz-setup-card" id="quizSetup">
+            <div class="quiz-setup-header">
+              <div class="setup-title">
+                <i class="fa-solid fa-sliders"></i>
+                <div>
+                  <h3>Configure Your Assessment</h3>
+                  <p>Choose domain and number of MCQs to solve</p>
+                </div>
+              </div>
+              <div class="quiz-audio-toggle">
+                <button id="soundToggle" class="btn-icon" title="Toggle Sound Feedback">
+                  <i class="fa-solid fa-volume-high"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="setup-controls-grid">
+              <div class="control-group">
+                <label for="quizCategory"><i class="fa-solid fa-layer-group"></i> Select Domain</label>
+                <select id="quizCategory" class="form-select">
+                  <!-- Populated via script -->
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="quizCount"><i class="fa-solid fa-list-ol"></i> Assessment Size</label>
+                <select id="quizCount" class="form-select">
+                  <option value="20" selected>Standard Assessment (20 MCQs)</option>
+                  <option value="10">Quick Practice (10 MCQs)</option>
+                  <option value="25">Full Challenge (25 MCQs)</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="quizMode"><i class="fa-solid fa-bolt"></i> Feedback Mode</label>
+                <select id="quizMode" class="form-select">
+                  <option value="instant" selected>Instant Explanation (Learn as you go)</option>
+                  <option value="exam">Exam Mode (Results at finish)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="setup-actions">
+              <button class="btn btn-primary btn-lg" id="startQuizBtn">
+                <i class="fa-solid fa-play"></i> Start Assessment Now
+              </button>
+              <button class="btn btn-outline" id="browseNotesBtn">
+                <i class="fa-solid fa-book"></i> View Domain Cheat Sheet
+              </button>
+            </div>
+          </div>
+
+          <!-- Active Quiz Container -->
+          <div id="quizContainer" class="quiz-active-card hidden">
+            <!-- Header with Timer and Progress -->
+            <div class="quiz-active-header">
+              <div class="quiz-domain-tag">
+                <span id="activeDomainBadge" class="domain-badge">Domain</span>
+                <span id="questionCounter" class="question-pill">Question 1 / 20</span>
+              </div>
+
+              <div class="quiz-telemetry">
+                <div class="telemetry-item" id="timerBox">
+                  <i class="fa-regular fa-clock"></i> <span id="quizTimer">00:00</span>
+                </div>
+                <div class="telemetry-item" id="scoreBox">
+                  <i class="fa-solid fa-star"></i> <span id="currentScore">Score: 0</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+              <div class="progress-bar" id="progressBar" style="width: 5%;"></div>
+            </div>
+
+            <!-- Question Numbers Navigator -->
+            <div class="question-navigator" id="questionNav">
+              <!-- Bubbles generated by JS -->
+            </div>
+
+            <!-- Question Box -->
+            <div class="question-box" id="questionBox">
+              <div class="question-stem" id="questionStem">Loading question...</div>
+              
+              <div class="options-container" id="optionsContainer">
+                <!-- 4 Options rendered by JS -->
+              </div>
+
+              <!-- Explanation Area -->
+              <div class="explanation-box hidden" id="explanationBox">
+                <div class="explanation-header">
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <strong>Official JanGyan Handbook Explanation</strong>
+                </div>
+                <p id="explanationText"></p>
+              </div>
+            </div>
+
+            <!-- Quiz Controls -->
+            <div class="quiz-navigation-bar">
+              <button class="btn btn-outline" id="prevBtn" disabled>
+                <i class="fa-solid fa-arrow-left"></i> Previous
+              </button>
+              <div class="nav-middle">
+                <button class="btn btn-secondary" id="restartQuizBtn">
+                  <i class="fa-solid fa-rotate-right"></i> Restart
+                </button>
+              </div>
+              <button class="btn btn-primary" id="nextBtn">
+                Next <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Quiz Result Dashboard -->
+          <div id="quizResult" class="quiz-result-card hidden">
+            <div class="result-header">
+              <div class="result-badge-icon" id="resultIcon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <h2 id="resultTitle">Assessment Completed!</h2>
+              <p id="resultSubtitle">Here is your performance summary for this citizen awareness module.</p>
+            </div>
+
+            <!-- Score Visualizer -->
+            <div class="score-summary-grid">
+              <div class="score-card primary-score">
+                <span class="score-label">Final Score</span>
+                <div class="score-value"><span id="finalScoreVal">18</span> / <span id="finalTotalVal">20</span></div>
+                <span class="score-percent" id="finalPercentVal">90% Accuracy</span>
+              </div>
+              
+              <div class="score-card">
+                <span class="score-label">Time Taken</span>
+                <div class="metric-value" id="finalTimeVal">03:42</div>
+                <span class="metric-note">Average 11s / question</span>
+              </div>
+
+              <div class="score-card">
+                <span class="score-label">Proficiency Level</span>
+                <div class="metric-value status-badge" id="proficiencyBadge">Citizen Maestro</div>
+                <span class="metric-note" id="proficiencyNote">Eligible for Certificate</span>
+              </div>
+            </div>
+
+            <!-- Certificate Claim Section -->
+            <div class="certificate-claim-box" id="certClaimSection">
+              <div class="cert-claim-info">
+                <i class="fa-solid fa-stamp"></i>
+                <div>
+                  <h4>Claim Your Official JanGyan Certificate</h4>
+                  <p>Generate a verifiable Certificate of Civic Awareness with your name and official score stamp.</p>
+                </div>
+              </div>
+              <div class="cert-claim-form">
+                <input type="text" id="certCandidateName" placeholder="Enter Full Name (e.g. Rahul Sharma)" class="form-input" />
+                <button class="btn btn-primary" id="generateCertBtn">
+                  <i class="fa-solid fa-file-shield"></i> Generate & Print Certificate
+                </button>
+              </div>
+            </div>
+
+            <!-- Detailed Question Review -->
+            <div class="review-section">
+              <div class="review-header">
+                <h3><i class="fa-solid fa-clipboard-check"></i> Comprehensive Review & Answers</h3>
+                <span class="text-muted">Review every question, selected answer, and handbook explanation</span>
+              </div>
+              <div id="reviewContainer" class="review-accordion">
+                <!-- Filled by JS -->
+              </div>
+            </div>
+
+            <!-- Bottom Actions -->
+            <div class="result-actions">
+              <button class="btn btn-primary btn-lg" id="retakeQuizBtn">
+                <i class="fa-solid fa-rotate-right"></i> Retake With Fresh 20 Questions
+              </button>
+              <button class="btn btn-secondary btn-lg" id="chooseOtherDomainBtn">
+                <i class="fa-solid fa-layer-group"></i> Practice Another Domain
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate Modal / Printable View -->
+    <div class="modal-overlay hidden" id="certModal">
+      <div class="modal-content cert-modal-content">
+        <div class="modal-header no-print">
+          <h3>Official JanGyan Citizen Awareness Certificate</h3>
+          <button class="modal-close" id="closeCertModal">&times;</button>
+        </div>
+
+        <div class="certificate-frame" id="printableCertificate">
+          <div class="cert-border-outer">
+            <div class="cert-border-inner">
+              <div class="cert-header">
+                <div class="cert-seal">
+                  <img src="assets/logo.png" alt="JanGyan Emblem" onerror="this.src='JanGyan Logo.png'" />
+                </div>
+                <div class="cert-header-text">
+                  <span class="cert-gov-sub">REPUBLIC OF INDIA · CITIZEN EMPOWERMENT MISSION</span>
+                  <h1 class="cert-title">JANGYAN NATIONAL CITIZEN ACCREDITATION</h1>
+                  <span class="cert-domain-name" id="certDomainDisplay">CYBER SAFETY & DIGITAL SECURITY</span>
+                </div>
+              </div>
+
+              <div class="cert-body">
+                <p class="cert-declare">This is proudly awarded to recognize that</p>
+                <h2 class="cert-student-name" id="certCandidateDisplay">Citizen Candidate</h2>
+                <p class="cert-text">
+                  has demonstrated verified proficiency and civic preparedness in the official curriculum of 
+                  <strong id="certCategoryDisplay">Cyber Safety & Digital Security</strong> by scoring 
+                  <strong id="certScoreDisplay">90%</strong> on the comprehensive JanGyan National Evaluation System.
+                </p>
+              </div>
+
+              <div class="cert-footer">
+                <div class="cert-meta">
+                  <p><strong>Certificate ID:</strong> <span id="certUniqueId">JGY-2026-9481</span></p>
+                  <p><strong>Date Issued:</strong> <span id="certIssueDate">October 11, 2026</span></p>
+                  <p><strong>Verification:</strong> <span>jangyan.org/verify</span></p>
+                </div>
+                <div class="cert-sign">
+                  <div class="sign-line">
+                    <img src="assets/logo.png" alt="Signature Seal" class="sign-seal" onerror="this.src='JanGyan Logo.png'" />
+                  </div>
+                  <strong>JanGyan Citizen Directorate</strong>
+                  <span>Director of Academic Evaluation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-modal-actions no-print">
+          <button class="btn btn-primary btn-lg" onclick="window.print()">
+            <i class="fa-solid fa-print"></i> Print / Save as PDF
+          </button>
+          <button class="btn btn-secondary" id="closeCertBtn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Study Notes Modal -->
+    <div class="modal-overlay hidden" id="notesModal">
+      <div class="modal-content notes-modal-content">
+        <div class="modal-header">
+          <h3 id="notesModalTitle"><i class="fa-solid fa-book-open"></i> Domain Study Guide</h3>
+          <button class="modal-close" id="closeNotesModal">&times;</button>
+        </div>
+        <div class="modal-body" id="notesModalBody">
+          <!-- Dynamic domain notes injected here -->
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" id="launchQuizFromNotes">
+            <i class="fa-solid fa-pen-to-square"></i> Practice This Domain (20 MCQs)
+          </button>
+          <button class="btn btn-secondary" id="closeNotesBtn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- National Helplines Directory -->
+    <section id="helplines" class="section bg-alt">
+      <div class="section-container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">NATIONAL EMERGENCY DIRECTORY</p>
+          <h2>Citizen Emergency Helplines & Portals</h2>
+          <p class="subheading">Every citizen must know these toll-free numbers. Verified by Government of India.</p>
+        </div>
+
+        <div class="helplines-grid">
+          <div class="helpline-card highlight-danger">
+            <div class="helpline-icon"><i class="fa-solid fa-headset"></i></div>
+            <div class="helpline-info">
+              <span class="helpline-num">1930</span>
+              <h4>Cyber Financial Fraud Helpline</h4>
+              <p>Report online banking scams, UPI fraud, and unauthorized deductions within the Golden Window.</p>
+              <a href="tel:1930" class="btn btn-sm btn-outline"><i class="fa-solid fa-phone"></i> Call 1930</a>
+            </div>
+          </div>
+
+          <div class="helpline-card highlight-primary">
+            <div class="helpline-icon"><i class="fa-solid fa-shield-virus"></i></div>
+            <div class="helpline-info">
+              <span class="helpline-num">112</span>
+              <h4>All-in-One National Emergency</h4>
+              <p>Unified emergency number across India for immediate Police, Fire, and Ambulance response.</p>
+              <a href="tel:112" class="btn btn-sm btn-outline"><i class="fa-solid fa-phone"></i> Call 112</a>
+            </div>
+          </div>
+
+          <div class="helpline-card highlight-warning">
+            <div class="helpline-icon"><i class="fa-solid fa-truck-medical"></i></div>
+            <div class="helpline-info">
+              <span class="helpline-num">108 / 102</span>
+              <h4>Emergency Ambulance Services</h4>
+              <p>Immediate medical evacuation, highway accident relief, and pregnant women emergency transport.</p>
+              <a href="tel:108" class="btn btn-sm btn-outline"><i class="fa-solid fa-phone"></i> Call 108</a>
+            </div>
+          </div>
+
+          <div class="helpline-card">
+            <div class="helpline-icon"><i class="fa-solid fa-person-shelter"></i></div>
+            <div class="helpline-info">
+              <span class="helpline-num">1098</span>
+              <h4>Childline India</h4>
+              <p>24x7 emergency toll-free outreach service for children in need of care and immediate protection.</p>
+              <a href="tel:1098" class="btn btn-sm btn-outline"><i class="fa-solid fa-phone"></i> Call 1098</a>
+            </div>
+          </div>
+
+          <div class="helpline-card">
+            <div class="helpline-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <div class="helpline-info">
+              <span class="helpline-num">1091</span>
+              <h4>Women in Distress Helpline</h4>
+              <p>Dedicated round-the-clock helpline providing assistance, legal counseling, and police intervention.</p>
+              <a href="tel:1091" class="btn btn-sm btn-outline"><i class="fa-solid fa-phone"></i> Call 1091</a>
+            </div>
+          </div>
+
+          <div class="helpline-card">
+            <div class="helpline-icon"><i class="fa-solid fa-credit-card"></i></div>
+            <div class="helpline-info">
+              <span class="helpline-num">14444</span>
+              <h4>Digital Payments & NPCI Helpline</h4>
+              <p>Immediate grievance redressal for UPI, AePS, and digital wallet payment disputes.</p>
+              <a href="tel:14444" class="btn btn-sm btn-outline"><i class="fa-solid fa-phone"></i> Call 14444</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Official Citizen Portals Quick Links -->
+        <div class="official-portals-box">
+          <h3><i class="fa-solid fa-building-columns"></i> Official Citizen Portals</h3>
+          <div class="portal-badges">
+            <a href="https://cybercrime.gov.in" target="_blank" class="portal-badge"><i class="fa-solid fa-arrow-up-right-from-square"></i> cybercrime.gov.in</a>
+            <a href="https://parivahan.gov.in" target="_blank" class="portal-badge"><i class="fa-solid fa-arrow-up-right-from-square"></i> parivahan.gov.in</a>
+            <a href="https://pgportal.gov.in" target="_blank" class="portal-badge"><i class="fa-solid fa-arrow-up-right-from-square"></i> pgportal.gov.in (CPGRAMS)</a>
+            <a href="https://www.digilocker.gov.in" target="_blank" class="portal-badge"><i class="fa-solid fa-arrow-up-right-from-square"></i> digilocker.gov.in</a>
+            <a href="https://pmjay.gov.in" target="_blank" class="portal-badge"><i class="fa-solid fa-arrow-up-right-from-square"></i> pmjay.gov.in</a>
+            <a href="https://services.india.gov.in" target="_blank" class="portal-badge"><i class="fa-solid fa-arrow-up-right-from-square"></i> india.gov.in</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Feedback -->
+    <section id="contact" class="section">
+      <div class="section-container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">CITIZEN FEEDBACK & SUPPORT</p>
+          <h2>Have Suggestions or Questions?</h2>
+          <p class="subheading">Help us expand civic awareness modules or propose a new community question.</p>
+        </div>
+
+        <div class="contact-box">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Full Name</label>
+                <input type="text" class="form-input" placeholder="e.g. Anish Patil" required />
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-input" placeholder="e.g. anish@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Topic / Domain</label>
+              <select class="form-select">
+                <option>General Feedback</option>
+                <option>Cyber Safety Module</option>
+                <option>Government Services & Rights</option>
+                <option>Road Safety Standards</option>
+                <option>Health & Emergency Protocols</option>
+                <option>Financial Literacy</option>
+                <option>Environment & Waste Management</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Your Message or Proposed Civic Question</label>
+              <textarea class="form-textarea" rows="4" placeholder="Enter your thoughts, review, or suggestions..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-paper-plane"></i> Submit Feedback
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="brand-line">
+          <img src="assets/logo.png" alt="JanGyan logo" onerror="this.src='JanGyan Logo.png'" />
+          <strong>JanGyan Platform</strong>
+        </div>
+        <p>E-Learning and Civic Literacy Platform for Indian Citizens. Bridging legal knowledge, digital resilience, and everyday community safety through modular learning.</p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Domains</h4>
+        <ul>
+          <li><a href="#quiz" onclick="selectCategoryDirectly('Cyber Safety & Digital Security')">Cyber Safety</a></li>
+          <li><a href="#quiz" onclick="selectCategoryDirectly('Government Services & Citizen Rights')">Citizen Rights</a></li>
+          <li><a href="#quiz" onclick="selectCategoryDirectly('Road Safety & Public Safety')">Road Safety</a></li>
+          <li><a href="#quiz" onclick="selectCategoryDirectly('Health & Emergency Awareness')">Health & Emergency</a></li>
+          <li><a href="#quiz" onclick="selectCategoryDirectly('Financial Literacy & Digital Finance')">Digital Finance</a></li>
+          <li><a href="#quiz" onclick="selectCategoryDirectly('Environment & Civic Responsibility')">Environment</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Platform</a></li>
+          <li><a href="#categories">Module Structure</a></li>
+          <li><a href="#quiz">20-MCQ Quiz Engine</a></li>
+          <li><a href="#helplines">Emergency Numbers</a></li>
+          <li><a href="#contact">Contact & Grievance</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 JanGyan National Civic Awareness Platform. Created for Academic & Community Demonstration.</p>
+      <p>Motto: <em>Awareness · Action · Impact</em></p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- Load Extracted Question Bank & Application Logic -->
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
