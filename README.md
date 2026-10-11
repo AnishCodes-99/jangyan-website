@@ -1,6 +1,6 @@
 # JanGyan — National Citizen Awareness & E-Learning Platform
 
-**Motto:** *Awareness · Action · Impact*  
+**Official Tagline:** *Learn Without Limits*  
 **Project Type:** Interactive Citizen Literacy & Assessment Web Portal  
 **Target Audience:** Indian Citizens, Students, Evaluators & Academic Reviewers
 
